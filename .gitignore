@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+release/
+out/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Secrets - never commit
+.env
+.env.local
+*.env
+
+# Piper TTS binary runtime (large vendored binaries, download separately)
+backend/models/piper/
+
+# Agent workspace
+.opencode/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
